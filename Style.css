@@ -146,3 +146,32 @@ img {
   height: auto;
   margin: 20px 0;
 }
+#floating-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#floating-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#floating-menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#floating-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #4caf50;
+}
+
+#floating-menu a:hover {
+  background-color: #44cccc;
+}
